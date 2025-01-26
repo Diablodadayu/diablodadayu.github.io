@@ -32,3 +32,7 @@ yarn-error.log*
 *.tsbuildinfo
 
 .gitattributes
+
+/.husky/
+/install/
+/demo/
