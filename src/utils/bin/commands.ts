@@ -32,6 +32,9 @@ Type 'summary' to display summary.
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
+I am a backend developer based in Waterloo, ON.
+I have experience in multiple areas including
+website, IoT, robot and mobile development.
 Welcome to my website!
 More about me:
 'summary' - short summary.
