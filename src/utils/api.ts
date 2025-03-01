@@ -31,7 +31,7 @@ export const getQuote = async () => {
 
 export const leaveMessage = async (message: string) => {
   try {
-    const response = await fetch('/api/append', {
+    const response = await fetch('/api/leavemessage', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text: message }),
