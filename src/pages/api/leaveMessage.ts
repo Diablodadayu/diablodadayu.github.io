@@ -13,11 +13,11 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
     fs.appendFile(filePath, text + '\n', (err) => {
       if (err) {
-        return res.status(500).json({ error: 'Failed to write to file' });
+        return res.status(500).json({ error: 'Failed to write to file.' });
       }
-      res.status(200).json({ message: 'Message submitted successfully' });
+      res.status(200).json({ message: 'Message submitted successfully.' });
     });
   } else {
-    res.status(405).json({ error: 'Method Not Allowed' });
+    res.status(405).json({ error: `${req.method} Method Not Allowed.` });
   }
 }

@@ -40,6 +40,6 @@ export const leaveMessage = async (message: string) => {
     return data.message;
   } catch (error) {
     console.log(error.message);
-    return `Ops, something goes wrong`;
+    return `Ops, something goes wrong.`;
   }
 };
