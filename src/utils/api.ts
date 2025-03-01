@@ -28,3 +28,18 @@ export const getQuote = async () => {
     quote: `“${data.content}” — ${data.author}`,
   };
 };
+
+export const leaveMessage = async (message: string) => {
+  try {
+    const response = await fetch('/api/append', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text: message }),
+    });
+    const data = await response.json();
+    return data.message;
+  } catch (error) {
+    console.log(error.message);
+    return `Ops, something goes wrong`;
+  }
+};

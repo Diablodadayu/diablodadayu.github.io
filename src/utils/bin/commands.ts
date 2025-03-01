@@ -154,6 +154,7 @@ export const banner = (args?: string[]): string => {
                                                                                  
 
 Type 'help' to start.
+Type 'message' to leave a message.
 Type 'summary' to display summary.
 `;
 };

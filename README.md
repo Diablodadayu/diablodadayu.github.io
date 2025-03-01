@@ -11,4 +11,4 @@ A terminal-style website built with Next.js
 
 - `help` - Show available commands
 - `summary` - Display information
-- `readme` - Github profile
+- `message` - Leave a message

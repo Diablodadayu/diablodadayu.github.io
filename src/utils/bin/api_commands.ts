@@ -2,7 +2,7 @@
 
 // import { getProjects } from '../api';
 // import { getQuote } from '../api';
-import { getReadme } from '../api';
+import { getReadme, leaveMessage } from '../api';
 // import { getWeather } from '../api';
 
 // export const projects = async (args: string[]): Promise<string> => {
@@ -24,6 +24,15 @@ export const readme = async (args: string[]): Promise<string> => {
   const readme = await getReadme();
   return `Opening GitHub README...\n
   ${readme}`;
+};
+
+export const message = async (args: string[]): Promise<string> => {
+  const txt = args.join(' ');
+  if (txt.length > 200) {
+    return `too length`;
+  }
+  const result = await leaveMessage(txt);
+  return `${result}`;
 };
 
 // export const weather = async (args: string[]): Promise<string> => {
