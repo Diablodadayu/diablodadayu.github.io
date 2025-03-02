@@ -38,8 +38,7 @@ website, IoT, robot and mobile development.
 Welcome to my website!
 More about me:
 'summary' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+'resume' - my latest resume.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {

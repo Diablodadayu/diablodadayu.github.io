@@ -1,5 +1,7 @@
 import axios from 'axios';
 import config from '../../config.json';
+import { collection, addDoc } from 'firebase/firestore';
+import { db } from '../lib/firebase'; // Import Firestore instance
 
 export const getProjects = async () => {
   const { data } = await axios.get(
@@ -31,13 +33,13 @@ export const getQuote = async () => {
 
 export const leaveMessage = async (message: string) => {
   try {
-    const response = await fetch('/api/leavemessage', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text: message }),
+    // Add text to Firestore collection "entries"
+    await addDoc(collection(db, "message"), {
+      message: message,
+      timestamp: new Date(),
     });
-    const data = await response.json();
-    return data.message;
+    console.log("Text appended to Firestore!");
+    return 'Message submitted successfully';
   } catch (error) {
     console.log(error.message);
     return `Ops, something goes wrong.`;

@@ -29,7 +29,7 @@ export const readme = async (args: string[]): Promise<string> => {
 export const message = async (args: string[]): Promise<string> => {
   const txt = args.join(' ');
   if (txt.length > 200) {
-    return `too length`;
+    return `input is too long`;
   }
   const result = await leaveMessage(txt);
   return `${result}`;
