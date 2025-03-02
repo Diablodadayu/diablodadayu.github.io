@@ -27,9 +27,12 @@ export const readme = async (args: string[]): Promise<string> => {
 };
 
 export const message = async (args: string[]): Promise<string> => {
-  const txt = args.join(' ');
+  const txt = args.join(' ').trim();
+  if (txt.length == 0) {
+    return `Please enter your text after a space after message.`;
+  }
   if (txt.length > 200) {
-    return `input is too long`;
+    return `Input is too long`;
   }
   const result = await leaveMessage(txt);
   return `${result}`;

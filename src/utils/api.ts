@@ -34,7 +34,7 @@ export const getQuote = async () => {
 export const leaveMessage = async (message: string) => {
   try {
     // Add text to Firestore collection "entries"
-    await addDoc(collection(db, "message"), {
+    await addDoc(collection(db, 'message'), {
       message: message,
       timestamp: new Date(),
     });
