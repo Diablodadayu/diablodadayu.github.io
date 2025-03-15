@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Grid</title>
+    <style>
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+        padding: 10px;
+      }
+
+      .image-item {
+        text-align: center; /* Center image and description */
+      }
+
+      .image-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 5px; /* Space between image and description */
+      }
+
+      .image-item p {
+        font-size: 14px;
+        margin: 0; /* Remove default paragraph margins */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-grid">
+      <div class="image-item">
+        <img src="20250314.jpg" alt="Family" />
+        <p>Family</p>
+      </div>
+      <div class="image-item">
+        <img src="20250315.jpg" alt="Shark" />
+        <p>Shark and pirate</p>
+      </div>
+      <div class="image-item">
+        <img src="202503150958.jpg" alt="Be careful, Mummy in a party" />
+        <p>Be careful, Mummy at a party</p>
+      </div>
+    </div>
+
+    <script></script>
+  </body>
+</html>
