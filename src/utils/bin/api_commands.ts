@@ -20,11 +20,11 @@ import { getReadme, leaveMessage } from '../api';
 //   return data.quote;
 // };
 
-export const readme = async (args: string[]): Promise<string> => {
-  const readme = await getReadme();
-  return `Opening GitHub README...\n
-  ${readme}`;
-};
+// export const readme = async (args: string[]): Promise<string> => {
+//   const readme = await getReadme();
+//   return `Opening GitHub README...\n
+//   ${readme}`;
+// };
 
 export const message = async (args: string[]): Promise<string> => {
   const txt = args.join(' ').trim();
