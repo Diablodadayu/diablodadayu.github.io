@@ -1,0 +1,19 @@
+{
+    "projects" : [
+        {
+            "image" : "",
+            "title": "Terence.Dev",
+            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/diablodadayu"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript"
+            ]
+        }
+    ]
+}

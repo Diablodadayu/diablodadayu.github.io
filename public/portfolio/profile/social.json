@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/terence-yu-117389275/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/diablodadayu"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:diablodadayu@gmail.com"
+        }
+    ]
+}

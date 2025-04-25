@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkterence_dev=self.webpackChunkterence_dev||[]).push([[660],{7660:(e,t,c)=>{c.r(t),c.d(t,{default:()=>s});c(5043),c(4050);var n=c(579);const s=function(e){const{id:t,title:c}=e;return(0,n.jsx)("div",{className:"header",id:t,children:c})}}}]);
+//# sourceMappingURL=660.46ee2395.chunk.js.map

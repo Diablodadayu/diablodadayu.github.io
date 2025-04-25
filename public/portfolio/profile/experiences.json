@@ -1,0 +1,42 @@
+{
+    "experiences": [
+        {
+            "title": "Senior Software Engineer",
+            "subtitle": "Ecovacs Robotics",
+            "workType": "Full-time",
+            "workDescription": [
+                "Led a group of 8 to build over a dozen backend applications, including NLP systems, IoT platforms, image processing, data pipeline, and integration with Alexa and Google Assistant, supporting over 10 million users and devices.",
+                "Designed key architectural solutions focusing on distributed microservices, robust API design, and relational modeling, ensuring scalability, security, and 99.99% high availability.",
+                "Created service-oriented applications with Node.js, Go, Protocol Buffers, REST APIs, PostgreSQL, MongoDB, Kafka, and Redis, handling peak concurrent requests of around 30,000 per second.",
+                "Integrated third-party AI interfaces and built a labeling system to train specialized business models based on the general models of cloud vendors, which increased the speech recognition rate by 7%.",
+                "Optimized product performance through refactoring from monolith to microservices, rewriting JavaScript core program with Go, offloading server computation to edge devices, and reducing interface latency by up to 90%.",
+                "Streamlined software release processes by utilizing tools like Git, Jenkins/GitHub Actions, SonarQube, and automated testing, ensuring efficient and error-free deployments, shortening deployment time by 2/3, and reducing errors by 70%.",
+                "Collaborated closely with cross-functional teams to identify and prioritize work items, delivering incremental software releases in 2-week sprints.",
+                "Mentored a team of 5 junior engineers, improving team effectiveness through pair coding, code reviews, and technology sharing."
+            ],
+            "dateText": "Dec 2017 - Mar 2023"
+        },
+        {
+            "title": "iOS Developer",
+            "subtitle": "Ecovacs Robotics",
+            "workType": "Full-time",
+            "workDescription": [
+                "Participated in the definition of mobile application prototypes and the design of UX and UI.",
+                "Built the company's first robot-controlling mobile application from scratch.",
+                "Developed iOS applications with OC and Swift, using Cordova to implement hybrid development.",
+                "Encapsulated IoT communicating SDK, providing abstract interfaces to upper-level developers."
+            ],
+            "dateText": "May 2012 - Dec 2017"
+        },
+        {
+            "title": "Embedded Software Developer",
+            "subtitle": "Qisda Corporation",
+            "workType": "Full-time",
+            "workDescription": [
+                "Built driver programs for Scanner’s optical sensor and motor, manipulating registers to implement functions according to the chip's spec with C and Assembly language.",
+                "Optimized firmware of Printers."
+            ],
+            "dateText": "Mar 2010 - May 2012"
+        }
+    ]
+}

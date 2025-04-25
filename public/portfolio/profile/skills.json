@@ -1,0 +1,113 @@
+{
+    "intro": "Over the years, I’ve worked with a variety of languages, frameworks, and technologies to build high-performance, scalable backend systems. Here’s a glimpse into my tech journey:",
+    "skills": [{
+     
+            "title": "Languages & Databases",
+            "items" : [
+     
+                
+                {
+                    "icon": "images/skills/go.png",
+                    "title": "Golang"
+                },
+                {
+                    "icon": "images/skills/javascript.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/c.png",
+                    "title": "C"
+                },
+
+                {
+                    "icon": "images/skills/bash.png",
+                    "title": "Bash"
+                },
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/postgresql.png",
+                    "title": "PostgreSQL"
+                },
+                {
+                    "icon": "images/skills/mongodb.png",
+                    "title": "MongoDB"
+                },
+                {
+                    "icon": "images/skills/es.png",
+                    "title": "ElasticSearch"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/gin.png",
+                    "title": "Gin"
+                },
+                {
+                    "icon": "images/skills/express.png",
+                    "title": "Express"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Nodejs"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/kafka.svg",
+                    "title": "Kafka"
+                },
+                {
+                    "icon": "images/skills/rabbitmq.png",
+                    "title": "RabbitMQ"
+                },
+                {
+                    "icon": "images/skills/redis.png",
+                    "title": "Redis"
+                },
+                {
+                    "icon": "images/skills/prometheus.png",
+                    "title": "Prometheus"
+                },
+                {
+                    "icon": "images/skills/grafana.png",
+                    "title": "Grafana"
+                },
+                {
+                    "icon": "images/skills/apollo.png",
+                    "title": "Apollo"
+                },
+                {
+                    "icon": "images/skills/elk.svg",
+                    "title": "ELK Stack"
+                },
+                {
+                    "icon": "images/skills/nginx.png",
+                    "title": "Nginx"
+                },
+                {
+                    "icon": "images/skills/k8s.png",
+                    "title": "Kubernetes"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                }
+            ]
+    }
+]}

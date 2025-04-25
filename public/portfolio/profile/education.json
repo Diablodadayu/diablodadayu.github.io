@@ -1,0 +1,20 @@
+{
+    "education":[
+        {
+            "dateText": "May 2023 - Aug 2024",
+            "title": "Postgraduate Certificate, Web Development",
+            "subtitle":"Conestoga College, Waterloo, CA",
+            "icon" : {
+                "src": "images/education/conestoga.png"
+            }
+        },
+        {
+            "dateText": "Oct 2005 - June 2009",
+            "title": "Bachelor of Electronic Information Engineering",
+            "subtitle":"Chongqing University, China",
+            "icon" : {
+                "src": "images/education/cqu.png"
+            }
+        }
+    ]
+}
