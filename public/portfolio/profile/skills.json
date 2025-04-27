@@ -1,5 +1,5 @@
 {
-    "intro": "Over the years, I’ve worked with a variety of languages, frameworks, and technologies to build high-performance, scalable backend systems. Here’s a glimpse into my tech journey:",
+    "intro": "Over the years, I've worked with a variety of languages, frameworks, and technologies to build high-performance, scalable backend systems. Here's a glimpse into my tech journey:",
     "skills": [{
      
             "title": "Languages & Databases",
@@ -52,6 +52,10 @@
                     "title": "Gin"
                 },
                 {
+                    "icon": "images/skills/django.webp",
+                    "title": "Django"
+                },
+                {
                     "icon": "images/skills/express.png",
                     "title": "Express"
                 },
@@ -69,12 +73,16 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/kafka.svg",
-                    "title": "Kafka"
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
                 },
                 {
-                    "icon": "images/skills/rabbitmq.png",
-                    "title": "RabbitMQ"
+                    "icon": "images/skills/openapi.png",
+                    "title": "OpenAPI"
+                },
+                {
+                    "icon": "images/skills/kafka.svg",
+                    "title": "Kafka"
                 },
                 {
                     "icon": "images/skills/redis.png",
@@ -87,10 +95,6 @@
                 {
                     "icon": "images/skills/grafana.png",
                     "title": "Grafana"
-                },
-                {
-                    "icon": "images/skills/apollo.png",
-                    "title": "Apollo"
                 },
                 {
                     "icon": "images/skills/elk.svg",
