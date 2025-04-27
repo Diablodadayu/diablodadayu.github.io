@@ -152,8 +152,8 @@ export const banner = (args?: string[]): string => {
    ╚═╝   ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝╚══════╝       ╚═╝    ╚═════╝ 
                                                                                  
 
+Visit <a href='/portfolio/' style='text-decoration: underline; text-decoration-color: #2ac3de; color: #2ac3de' >Normal Website</a>
 Type 'help' to start.
 Type 'message' to leave a message.
-Type 'summary' to display summary.
 `;
 };
